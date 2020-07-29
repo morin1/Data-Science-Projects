@@ -17,7 +17,6 @@ def load_data(file):
     return pd.read_csv(file)
 
 
-
 def clean_data(df, cols_to_drop, cols_to_fill, new_cols, cols_to_split):
     '''cleans up the data to be useful for analysis'''
 
@@ -155,8 +154,8 @@ def error_correction(df, corrections, date_correction):
 if __name__ == '__main__':
 
     # Define inputs
-    CT_Overdoses = "C:/Users/Jeff/Desktop/Projects/Data Science Portfolio/Accidental_Drug_Related_Deaths_2012-2018.csv"
-    CT_Cities_Counties = "C:/Users/Jeff/Desktop/Projects/Data Science Portfolio/CT_Cities_Counties.csv"
+    CT_Overdoses = "data/Accidental_Drug_Related_Deaths_2012-2018.csv"
+    CT_Cities_Counties = "data/CT_Cities_Counties.csv"
 
     # Define variables
     cols_to_drop1 = ['DateType', 'ResidenceCity', 'ResidenceCounty', 'ResidenceState', 'InjuryCity',
@@ -210,7 +209,6 @@ if __name__ == '__main__':
                        ['15-0729','2015-12-31',53,12,'December',2015]
                       ]
 
-    
 
     # Load data
     df_overdose = load_data(CT_Overdoses)
