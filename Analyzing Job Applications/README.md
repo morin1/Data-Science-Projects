@@ -1,3 +1,4 @@
+# What's the most popular time to apply for a job?
 For a busy Talent Acquisition team, the more you can understand your applicant pool, the more effective you will be. Better understanding your applicants allows you to optimize your talent pipeline, getting the most out of your sourcing dollars and delivering the best outcomes for your business. 
 
 When are they typically job searching?<br> 
