@@ -9,4 +9,4 @@ To get a more representative sense of popularity during a given time of the week
 
 This project is based on work I previously performed and resulted in this blog post (https://www.stellaremploy.com/case-studies-1/2020/5/12/grow-your-hourly-talent-pipeline-with-these-tips)
 
-The data used in this project has been both anonymized and randomized to remove any personally identifying information from the applicants or businessess.
+The data used in this project has been anonymized to remove any personally identifying information.
