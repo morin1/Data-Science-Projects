@@ -7,6 +7,6 @@ I processed data from over 15,000 hourly job applicants in foodservice and manuf
 
 To get a more representative sense of popularity during a given time of the week for 2019, I calculated each hour’s proportional share of total applications for the week. In other words, to get the best idea of generally how popular 9am Thursday morning was for 2019, I calculated the median of all of 2019's Thursday 9am application volumes.
 
-This project is based on work I previously performed and resulted in this blog post (https://www.stellaremploy.com/case-studies-1/2020/5/12/grow-your-hourly-talent-pipeline-with-these-tips)
+This project is based off of analytics work I previously performed which resulted in this blog post (https://www.stellaremploy.com/case-studies-1/2020/5/12/grow-your-hourly-talent-pipeline-with-these-tips)
 
-The data used in this project has been anonymized to remove any personally identifying information.
+The dataset attributes are: application_id, start_date, completion_date, city. The data used for this project has been modified (anonymized, with randomly generated IDs added) to remove any personally identifying information. 
