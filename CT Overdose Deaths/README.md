@@ -7,8 +7,10 @@ I have also gathered other data to help fill in the gaps of the main data source
   Dataset on all CT cities and corresponding counties info: https://ctstatelibrary.org/cttowns/counties
   2010 CT Population Data Town & County: https://portal.ct.gov/DPH/Health-Information-Systems--Reporting/Population/Annual-Town-and-County-Population-for-Connecticut
   
-Along with the cleaning file and EDA using a Jupyter notebook, I have also produced an Excel dashboard of the cleaned and transformed data.
-
+This projet contains a few different files:
+- <b>data_cleaning_CT.py</b>: python file that cleans/transforms the dataset for conducting analyis
+- <b>EDA of the accidental drug deaths data.ipynb</b> Jupyter notebook that explores the dataset
+- <b>Dashboard_CT_Accidental_Drug_Deaths_2012_2018.xlsx</b> Interactive Excel dashboard of overdose deaths from 2012-2018
 
 ### Conclusions and Next Steps
 From the EDA of the data, it was observed that overdose deaths in the state of Connecticut has been a growing problem in the state. Although there was a small reduction of fatalities from 2017 to 2018, the growth trend from 2012 to 2018 is severe.
@@ -19,6 +21,6 @@ By breaking the opiods into their respective categories it was observed that bot
 
 #### Next steps in the analysis would be to drill down on a few more questions that came from the EDA:
 1. How does the data look per county when using crude adjustment rates and age-adjusted rates?
-2. Are overdose deaths involving more than one drug?
-3. Visualize the geolocation of deaths per by drug per county.
-4. Visualize the geolocation data of the deaths per city.
+2. Visualize the geolocation of deaths per by drug per county.
+3. Visualize the geolocation data of the deaths per city.
+
