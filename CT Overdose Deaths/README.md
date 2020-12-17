@@ -7,7 +7,7 @@ I have also gathered other data to help fill in the gaps of the main data source
   Dataset on all CT cities and corresponding counties info: https://ctstatelibrary.org/cttowns/counties
   2010 CT Population Data Town & County: https://portal.ct.gov/DPH/Health-Information-Systems--Reporting/Population/Annual-Town-and-County-Population-for-Connecticut
   
-This projet contains a few different files:
+This project contains a few different files:
 - <b>data_cleaning_CT.py</b>: python file that cleans/transforms the dataset for conducting analyis
 - <b>EDA of the accidental drug deaths data.ipynb</b> Jupyter notebook that explores the dataset
 - <b>Dashboard_CT_Accidental_Drug_Deaths_2012_2018.xlsx</b> Interactive Excel dashboard of overdose deaths from 2012-2018
