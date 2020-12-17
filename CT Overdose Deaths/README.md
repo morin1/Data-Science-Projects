@@ -19,8 +19,9 @@ It appears that most deaths are occurring among Males(70%), White/Non-Hispanics(
 
 By breaking the opiods into their respective categories it was observed that both Heroin and natural and semi-sythetic opioids (most associated with prescription medications) have been showing a decline, however the reduction in these two categories is offset by the dramatic rise of "synthetic opioids" (e.g. Fentanyl).</b>
 
-#### Next steps in the analysis would be to drill down on a few more questions that came from the EDA:
+#### Next steps in the analysis will be to drill down on a few more questions that came from the EDA:
 1. How does the data look per county when using crude adjustment rates and age-adjusted rates?
 2. Visualize the geolocation of deaths per by drug per county.
 3. Visualize the geolocation data of the deaths per city.
+4. Compare Connecticut to the rest of the US
 
