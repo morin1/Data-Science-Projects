@@ -17,7 +17,7 @@ capture log using mortality_2013.txt, text replace name(example)	// open a log f
 
 /*set working directory and import dataset*/
 
-capture cd "C:\Users\Jeff\Desktop\SNHU\DAT 490 Capstone in Data Analytics\Final_Project\Data"
+capture cd "C:\Data"
 
 capture import delimited "parsed CDC files 2010_2018\New_EDU_VS13MORT.csv",delimiter(comma) clear
 
@@ -71,7 +71,7 @@ rename origin_latin hispanic_origin
 keep if age_key == 1
 
 // save this to csv for faster testing and inspecting
-capture cd "C:\Users\Jeff\Desktop\SNHU\DAT 490 Capstone in Data Analytics\Final_Project\Data\unmerged processed data"
+capture cd "C:\Data\unmerged processed data"
 outsheet using drug_deaths_mortality_2013_v2.csv, comma replace
 
 log close
