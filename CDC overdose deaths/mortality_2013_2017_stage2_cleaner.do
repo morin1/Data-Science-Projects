@@ -17,7 +17,7 @@ capture log using mortality_2013.txt, text replace name(example)	// open a log f
 
 /*set working directory and import dataset*/
 
-capture cd "C:\Users\Jeff\Desktop\SNHU\DAT 490 Capstone in Data Analytics\Final_Project\Data"
+capture cd "C:\Data"
 
 capture import delimited "drug_deaths_mortality_2013_2017.csv",delimiter(comma) clear
 
@@ -86,7 +86,7 @@ foreach var of varlist ra2-ra14 {
 
 
 // save this to csv for faster testing and inspecting
-capture cd "C:\Users\Jeff\Desktop\SNHU\DAT 490 Capstone in Data Analytics\Final_Project\Data"
+capture cd "C:\Data"
 outsheet using drug_deaths_mortality_2013_2017_cleaning_stage2.csv, comma replace
 
 log close
