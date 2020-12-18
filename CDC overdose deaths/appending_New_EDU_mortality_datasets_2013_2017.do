@@ -17,7 +17,7 @@ capture log using append_mortality.txt, text replace name(append_mortality) // o
 *****************************************************************
 /*set working directory and import dataset*/
 
-capture cd "C:\Users\Jeff\Desktop\SNHU\DAT 490 Capstone in Data Analytics\Final_Project\Data\unmerged processed data"
+capture cd "C:\Data\unmerged processed data"
 //capture import delimited "drug_deaths_mortality_2013_v2.dta", clear
 
 //import delimited using drug_deaths_mortality_2018_v2.csv, clear
@@ -49,7 +49,7 @@ append using drug_deaths_mortality_2017_v2.dta
 describe
 
 // save this as csv
-capture cd "C:\Users\Jeff\Desktop\SNHU\DAT 490 Capstone in Data Analytics\Final_Project\Data
+capture cd "C:\Data
 outsheet using drug_deaths_mortality_2013_2017.csv, comma replace
 
 log close
