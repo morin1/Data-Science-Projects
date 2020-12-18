@@ -12,7 +12,7 @@ clear all
 set more off				
 set linesize 80
 capture log close
-capture log using mortality_2013.txt, text replace name(example)	// open a log file 
+capture log using mortality_2013.txt, text replace name(mortality)	// open a log file 
 *****************************************************************
 
 /*set working directory and import dataset*/
