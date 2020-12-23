@@ -1,7 +1,7 @@
 ###########################################################################################################################################################
 # This file was originally created by the author "tommaho" and has been adjusted/corrected to accurately parse the files
 # Additions and changes include: adding missing fields for 3 education variables and fixing character position errors where fields are to be parsed
-
+#
 # jeffm 1/30/2020
 ###########################################################################################################################################################
 ###########################################################################################################################################################
