@@ -1,3 +1,10 @@
+###########################################################################################################################################################
+# This file was originally created by the author "tommaho" and has been adjusted/corrected to accurately parse the files
+# Additions and changes include: adding missing fields for 3 education variables and fixing character position errors where fields are to be parsed
+
+# jeffm 1/30/2020
+###########################################################################################################################################################
+###########################################################################################################################################################
 #
 # READ THIS
 #   This tools is NOT coded with safety, efficiency, or elegance in mind. Use at your own risk. 
@@ -20,13 +27,10 @@
 # 2. Get & unzip mortality file
 # 3. Tweak fileObj and FileOutObj to point to the source and destination of your choosing.
 
-###########################################################################################################################################################
-# this file has been adjusted/corrected by adding missing fields for 3 education variables and fixing character position errors where fields are to be parsed
-# jeffm 1/30/2020
-###########################################################################################################################################################
 
-fileObj = open("C:/Users/Jeff/Desktop/SNHU/DAT 490 Capstone in Data Analytics/Final_Project/Data/raw_CDC_files/Mort2018US.PubUse.txt",'r')
-fileOutObj = open('C:/Users/Jeff/Desktop/SNHU/DAT 490 Capstone in Data Analytics/Final_Project/Data/parsed CDC files 2010_2018/New_EDU_VS18MORT.csv',"a") 
+
+fileObj = open("Data/raw_CDC_files/Mort2018US.PubUse.txt","r")
+fileOutObj = open("Data/parsed CDC files 2010_2018/New_EDU_VS18MORT.csv","a") 
               
 fileOutObj.write('Resident_Status, Education_89, Education_2003, Education_Flag, Month_Of_Death, Sex, Age_Key, Age_Value, Age_Sub_Flag, Age_Recode_52, Age_Recode_27, ' + \
                  'Age_Recode_12, Infant_Age_Recode_22, Place_Of_Death, Marital_Status, DOW_of_Death, Data_Year, Injured_At_Work, ' + \
